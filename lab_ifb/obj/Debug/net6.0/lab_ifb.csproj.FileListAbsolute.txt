@@ -1,0 +1,15 @@
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\bin\Debug\net6.0\lab_ifb.exe
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\bin\Debug\net6.0\lab_ifb.deps.json
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\bin\Debug\net6.0\lab_ifb.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\bin\Debug\net6.0\lab_ifb.dll
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\bin\Debug\net6.0\lab_ifb.pdb
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.dll
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\refint\lab_ifb.dll
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.pdb
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\lab_ifb.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive\Документи\КНУ\2 курс\1 семестр\основи інформаційної безпеки\лабораторні\лаб 1\lab_ifb\lab_ifb\obj\Debug\net6.0\ref\lab_ifb.dll
