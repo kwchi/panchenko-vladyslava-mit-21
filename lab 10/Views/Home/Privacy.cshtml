@@ -1,0 +1,251 @@
+﻿@{
+    ViewData["Title"] = "Summary";
+}
+
+<head>
+    <title>Summary</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .list {
+            background-color: lightsalmon;
+            color: white;
+            padding: 10px;
+        }
+
+        em.class2 {
+            color: rgba(17, 166, 79, 0.5);
+            font-family: 'Cat Faces';
+        }
+
+        #id1 {
+            background-color: lightblue;
+            color: mediumpurple;
+        }
+
+        aside {
+            width: 50%;
+            padding-left: 15px;
+            float: right;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            border: 2px solid orange;
+            color: mediumseagreen;
+            font-size: 5vw;
+        }
+
+        h2 i {
+            background-color: #ffc7cb;
+            text-align: center;
+        }
+
+        p > ins {
+            color: mediumseagreen;
+        }
+
+        p * ins {
+            color: mediumpurple;
+        }
+
+        summary + address {
+            color: mediumseagreen;
+        }
+
+        #ull {
+            color: mediumblue;
+        }
+
+        h2 ~ ul {
+            color: mediumpurple !important;
+        }
+
+        summary {
+            border-bottom: 2px solid darkgreen !important;
+        }
+
+            summary#borderbottom {
+                border-bottom: 2px dotted dodgerblue !important;
+            }
+
+        .ddiv {
+            background-color: #ffc7cb;
+            width: calc(100% - 500px);
+            text-align: center;
+        }
+
+        #catn {
+            width: max(20%, 400px);
+            background-color: darkblue;
+            color: deepskyblue;
+        }
+
+        #catn2 {
+            width: min(50%, 500px);
+            background-color: midnightblue;
+            color: lightblue;
+        }
+
+        * {
+            font-size: 2vw;
+        }
+
+        sub, sup, del {
+            color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Vladyslava Panchenko</h1>
+        <a href="https://github.com/kwchi/webdesign">GitHub</a>
+        <hr>
+    </header>
+
+    <aside>
+
+        <strong>Important stop!</strong>
+        <em class="class2">cat кітик:<br></em>
+
+        <p style="border: 2px solid SlateBlue; color:hsl(258, 100%, 40%)"><cite style="color:black">A Cute Cat</cite> by автор відомий, 2022 рік</p>
+
+    </aside>
+
+    <section>
+
+        <b style="background-color:aquamarine">student of <abbr title="Kyiv National University">KNU</abbr></b>
+        <p>18 y.o.</p>
+        <pre style="color:blue; background-color:white; font-family:'Times New Roman'">
+        text text text
+        a lot of text
+        silly text
+        </pre>
+
+        <hr>
+
+        <p> неймовірно важливий <br> <mark style="background-color:DodgerBlue;">текст</mark> резюме </p>
+
+    </section>
+
+    <hr>
+
+    <article>
+
+        <h2>
+            <i>
+                Important summary text is right here:
+            </i>
+        </h2>
+
+        <p><abbr title="The text up is down. Its not a mistake, its a feature"><sub>up</sub></abbr> there is <ins>some</ins> <del>txt</del> <b><ins>text</ins></b>. it is also <abbr title="This text is also at the wrong place"><sup>down</sup></abbr> there</p>
+
+        <p class="list">Here is the quote that perfectly describes this summary:</p>
+        <blockquote cite="https://en.wikipedia.org/wiki/Little_Women"><q>I'm perfectly miserable, but if you consider me presentable, I die happy</q></blockquote>
+
+    </article>
+
+    <hr />
+
+    <table>
+        <caption>Experience</caption>
+        <colgroup>
+            <col span="4" style="background-color: lightgreen">
+        </colgroup>
+        <tread>
+            <tr>
+                <th>Місце діяльності</th>
+                <th>Число/рік</th>
+                <th>Комірка</th>
+            </tr>
+        </tread>
+        <tbody>
+            <tr>
+                <td>Місце один</td>
+                <td>2011-2022</td>
+                <td rowspan="2">Комірка</td>
+            </tr>
+            <tr>
+                <td colspan="2">Об'єднана комірка</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Місце два</td>
+                <td>2022-2026</td>
+                <td>Текст</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr />
+
+    <div class="ddiv">
+        <p>text text text text text</p>
+    </div>
+
+    <aside>
+        <div id="catn2">
+            The origin of the English word cat, Old English catt, is thought to be the Late Latin word cattus, which was first used at the beginning of the 6th century.
+        </div>
+    </aside>
+
+    <div id="catn">
+        The origin of the English word cat, Old English catt, is thought to be the Late Latin word cattus, which was first used at the beginning of the 6th century.
+    </div>
+
+    <hr />
+
+    <aside>
+
+        <div class="list">
+            <h2>Навички</h2>
+
+            <ul id="ull">
+                <li>Навичка</li>
+                <li>Навичка</li>
+                <li>Навичка</li>
+            </ul>
+
+            <p>Текст про <span id="id1">навички</span></p>
+
+            <h2>Список навичок:</h2>
+            <ol>
+                <li>Навичка</li>
+                <li>Навичка</li>
+                <li>Навичка</li>
+            </ol>
+
+            <ul>
+                <li>Навичка</li>
+                <li>Навичка</li>
+            </ul>
+
+        </div>
+
+    </aside>
+
+
+    <footer>
+
+        <hr />
+
+        <details>
+            <summary id="borderbottom">
+                <b>Contacts and Address:</b>
+            </summary>
+            <address>
+                Written by silly Vladyslava P. <br>
+                +380<small>*****</small>5928 <br>
+                Somewhere in Poltava <br>
+                Ukraine
+            </address>
+        </details>
+
+    </footer>
+</body>
