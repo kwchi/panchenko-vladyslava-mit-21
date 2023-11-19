@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Summary</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .list {
+            background-color: lightsalmon;
+            color: white;
+            padding: 10px;
+        }
+        em.class2 {
+            color: rgba(17, 166, 79, 0.5);
+            font-family: 'Cat Faces';
+        }
+        #id1 {
+            background-color: lightblue;
+            color: black;
+        }
+        aside {
+            width: 50%;
+            padding-left: 15px;
+            float: right;
+            background-color: white;
+        }
+        h1 {
+            text-align: center;
+            border: 2px solid orange;
+            color: mediumseagreen;
+            font-size: 5vw;
+        }
+        h2 i {
+            background-color: #ffc7cb;
+            text-align: center;
+        }
+        p > ins {
+            color: mediumseagreen;
+        }
+        p * ins {
+            color: mediumpurple;
+        }
+        * {
+            font-size: 2vw;
+        }
+        sub, sup, del{
+            color: brown;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Vladyslava Panchenko</h1>
+        <a href="https://github.com/kwchi/webdesign">GitHub</a>
+        <hr>
+    </header>
+
+    <nav>
+        <a href="liink.html">Another page</a>
+    </nav>
+
+    <aside>
+
+        <strong>Important stop!</strong>
+        <em class="class2">cat кітик:<br></em>
+
+        <picture>
+            <source srcset="cat.jpg" media="(max-width: 800px)">
+            <source srcset="cat2.jpg" media="(max-width: 2000px)">
+            <img scr="cat.jpg" alt="cat" style="max-width:100%" />
+        </picture>
+        <p style="border: 2px solid SlateBlue; color:hsl(258, 100%, 40%)"><cite style="color:black">A Cute Cat</cite> by автор відомий, 2022 рік</p>
+
+    </aside>
+
+    <section>
+
+        <b style="background-color:aquamarine">student of <abbr title="Kyiv National University">KNU</abbr></b>
+        <p>18 y.o.</p>
+        <pre style="color:blue; background-color:white; font-family:'Times New Roman'">
+        text text text
+        a lot of text
+        silly text
+        </pre>
+
+        <hr>
+
+        <p> неймовірно важливий <br> <mark style="background-color:DodgerBlue;">текст</mark> резюме </p>
+
+    </section>
+
+    <hr>
+
+    <article>
+
+        <h2>
+            <i>
+                Important summary text is right here:
+            </i>
+        </h2>
+
+        <p><abbr title="The text up is down. Its not a mistake, its a feature"><sub>up</sub></abbr> there is <ins>some</ins> <del>txt</del> <b><ins>text</ins></b>. it is also <abbr title="This text is also at the wrong place"><sup>down</sup></abbr> there</p>
+
+        <p class="list">Here is the quote that perfectly describes this summary:</p>
+        <blockquote cite="https://en.wikipedia.org/wiki/Little_Women"><q>I'm perfectly miserable, but if you consider me presentable, I die happy</q></blockquote>
+
+    </article>
+
+    <hr />
+
+    <table>
+        <caption>Experience</caption>
+        <colgroup>
+            <col span="4" style="background-color: lightgreen">
+        </colgroup>
+        <tread>
+            <tr>
+                <th>Місце діяльності</th>
+                <th>Число/рік</th>
+                <th>Комірка</th>
+            </tr>
+        </tread>
+        <tbody>
+            <tr>
+                <td>Місце один</td>
+                <td>2011-2022</td>
+                <td rowspan="2">Комірка</td>
+            </tr>
+            <tr>
+                <td colspan="2">Об'єднана комірка</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Місце два</td>
+                <td>2022-2026</td>
+                <td>Текст</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr />
+
+    <aside>
+
+        <div class="list">
+            <h2>Навички</h2>
+
+            <ul>
+                <li>Навичка</li>
+                <li>Навичка</li>
+                <li>Навичка</li>
+            </ul>
+
+            <p>Текст про <span id="id1">навички</span></p>
+
+            <h2>Список навичок:</h2>
+            <ol>
+                <li>Навичка</li>
+                <li>Навичка</li>
+                <li>Навичка</li>
+            </ol>
+
+        </div>
+
+    </aside>
+
+    <figure>
+        <picture>
+            <source srcset="cat2.jpg" media="(max-width: 800px)">
+            <source srcset="cat.jpg" media="(max-width: 2000px)">
+            <img scr="cat2.jpg" alt="cat" style="max-width:290px" />
+        </picture>
+        <figcaption>A Cute Cat</figcaption>
+    </figure>
+
+    <footer>
+
+        <hr />
+
+        <details>
+            <summary>
+                <b>Contacts and Address:</b>
+            </summary>
+            <address>
+                Written by silly Vladyslava P. <br>
+                +380<small>*****</small>5928 <br>
+                Somewhere in Poltava <br>
+                Ukraine
+            </address>
+        </details>
+
+    </footer>
+
+</body>
+
+</html>
