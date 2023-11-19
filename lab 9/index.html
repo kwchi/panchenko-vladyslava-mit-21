@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            width: 100%;
+        }
+
+        .header {
+            background-color: #9933cc;
+            color: #ffffff;
+            padding: 15px;
+        }
+
+        aside {
+            padding-left: 15px;
+            float: right;
+            background-color: white;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 768px) {
+            body {
+                background-color: lightcyan;
+            }
+        }
+        h1 {
+            text-align: center;
+            border: 2px solid orange;
+            color: mediumseagreen;
+            font-size: 5vw;
+        }
+        h2 i {
+            background-color: #ffc7cb;
+            text-align: center;
+        }
+        p > ins {
+            color: mediumseagreen;
+        }
+
+        p * ins {
+            color: mediumpurple;
+        }
+        .list {
+            background-color: lightsalmon;
+            color: white;
+            padding: 10px;
+            width: calc(100% - 30px);
+        }
+        sub, sup, del {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Vladyslava Panchenko</h1>
+        <a href="https://github.com/kwchi/webdesign">GitHub</a>
+        <hr>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <b style="background-color:aquamarine">student of <abbr title="Kyiv National University">KNU</abbr></b>
+            <p>18 y.o.</p>
+            <pre style="color:blue; background-color:white; font-family:'Times New Roman'">
+        text text text
+        a lot of text
+        silly text
+        </pre>
+
+            <hr>
+
+            <p> неймовірно важливий <br> <mark style="background-color:DodgerBlue;">текст</mark> резюме </p>
+
+            <hr />
+
+        </div>
+
+        <div class="col-6">
+            <h2>
+                <i>
+                    Important summary text is right here:
+                </i>
+            </h2>
+
+            <p><abbr title="The text up is down. Its not a mistake, its a feature"><sub>up</sub></abbr> there is <ins>some</ins> <del>txt</del> <b><ins>text</ins></b>. it is also <abbr title="This text is also at the wrong place"><sup>down</sup></abbr> there</p>
+
+            <p class="list">Here is the quote that perfectly describes this summary:</p>
+            <blockquote cite="https://en.wikipedia.org/wiki/Little_Women"><q>I'm perfectly miserable, but if you consider me presentable, I die happy</q></blockquote>
+
+        </div>
+
+        <div class="col-3 right">
+            <div class="aside">
+                <table>
+                    <caption>Experience</caption>
+                    <colgroup>
+                        <col span="4" style="background-color: lightgreen">
+                    </colgroup>
+                    <tread>
+                        <tr>
+                            <th>Місце діяльності</th>
+                            <th>Число/рік</th>
+                            <th>Комірка</th>
+                        </tr>
+                    </tread>
+                    <tbody>
+                        <tr>
+                            <td>Місце один</td>
+                            <td>2011-2022</td>
+                            <td rowspan="2">Комірка</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Об'єднана комірка</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Місце два</td>
+                            <td>2022-2026</td>
+                            <td>Текст</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <hr />
+
+        <details>
+            <summary id="borderbottom">
+                <b>Contacts and Address:</b>
+            </summary>
+            <address>
+                Written by silly Vladyslava P. <br>
+                +380<small>*****</small>5928 <br>
+                Somewhere in Poltava <br>
+                Ukraine
+            </address>
+        </details>
+
+    </footer>
+
+</body>
+</html>
