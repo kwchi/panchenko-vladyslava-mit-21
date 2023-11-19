@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        [type = "button"], [type = "submit"], [type = "reset"] {
+            background-color: seagreen;
+            color: beige;
+        }
+        input[type=button]{
+            background-color:cornflowerblue;
+        }
+        fieldset.cat {
+            background-color: rgb(255, 254, 208);
+            color: black;
+        }
+        fieldset {
+            background-color: rgb(139, 37, 37); 
+            color: antiquewhite;
+        }
+        p > i{
+            color: hotpink;
+        }
+        p  b {
+            font-size: 3vw;
+            color: red;
+        }
+        #id1 {
+            font-size: 4vw;
+            color: darkred;
+        }
+        * {
+            font-size: 2.5vw;
+        }
+
+        output, #id1, .cat{
+            border: 2px dotted green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 id="id1">Form</h2>
+
+    <p>
+        <i>fill the</i> <ins><b style="color:deeppink">form</b></ins>
+    </p>
+
+    <form action="/action_page.php" novalidate method="post" autocomplete="on" target="_blank" oninput="x.value = parseInt(a.value) * parseInt(b.value)">
+
+        <hr />
+
+        <label for="fname">Your name:</label><br />
+        <input type="text" id="fname" name="fname" value="your name here" /><br />
+        <input type="hidden" id="custId" name="custId" value="3487">
+
+        <label for="social">Add your social media link:</label>
+        <input type="url" id="social" name="social"><br />
+
+        <hr />
+
+        <fieldset>
+            <p>Choose an option:</p>
+
+            <input type="radio" id="one" name="first" value="one" />
+            <label for="one">option one</label><br />
+            <input type="radio" id="two" name="first" value="two" />
+            <label for="two">option two</label><br />
+
+            <button type="button" onclick="alert('хоткотики слеять')">message</button>
+
+            <hr />
+
+            <p>Your favorite color:</p>
+
+            <input type="checkbox" id="oone" name="oone" value="green" />
+            <label for="oone">Green</label><br />
+            <input type="checkbox" id="ttwo" name="ttwo" value="red" />
+            <label for="ttwo">Red</label><br />
+            <input type="checkbox" id="tthree" name="tthree" value="other" />
+            <label for="tthree">Other</label><br />
+            <input type="color" id="favcolor" name="favcolor"><br />
+
+            <input type="button" value="this button does nothing" />
+
+        </fieldset>
+
+        <fieldset class="cat">
+            <legend>cat cat cat</legend>
+
+            <label for="cat">Choose a cat:</label>
+            <select id="cat" name="cat">
+                <option value="black">Black cat</option>
+                <option value="orange">Orange cat</option>
+                <option value="white">White cat</option>
+                <option value="grey">Grey cat</option>
+                <option value="other">Other cat</option>
+            </select><br />
+
+            <textarea name="message" rows="5" cols="30">Enter your cat's name.</textarea><br />
+        </fieldset>
+
+
+        <label for="brw">Choose an option from the list:</label>
+        <input list="brws" name="brw" id="brw">
+        <datalist id="brws">
+            <option value="Black cat">
+            <option value="Orange cat">
+        </datalist><br />
+
+        <label for="today">Today's date:</label>
+        <input type="date" id="today" name="today" min="2000-01-01"><br />
+
+        <label for="todaytime">Time and date now:</label>
+        <input type="datetime-local" id="todaytime" name="todaytime"><br />
+
+        <label for="tt">Time mow:</label>
+        <input type="time" id="tt" name="tt"><br />
+
+        <hr />
+
+        <label for="month">Your birthday month (month and year):</label>
+        <input type="month" id="month" name="month"><br />
+        <label for="week">Your birthday week (week and year):</label>
+        <input type="week" id="week" name="week"><br />
+
+        <label for="a">Rate your mood 1:</label>
+        <input type="range" id="a" name="a" min="0" max="50"><br />
+
+        <label for="b">Rate your mood 2:</label>
+        <input type="number" id="b" name="b" min="1" max="56" step="5" value="1"><br />
+        Result:<output name="x" for="a b"></output>
+
+        <hr />
+
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset"><br />
+        <input type="image" src="cat.jpg" alt="Submit" width="290" height="217"><br />
+
+    </form>
+
+</body>
+</html>
